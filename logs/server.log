@@ -3,9 +3,82 @@
 > vite
 
 
-  VITE v5.4.20  ready in 316 ms
+  VITE v5.4.20  ready in 259 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.23.250:3000/
-4:57:52 AM [vite] Pre-transform error: Transform failed with 1 error:
-/home/workspace/src/App.jsx:30:30: ERROR: Unterminated string literal
+4:59:10 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/DocsPreview.jsx:34:39: ERROR: Unterminated string literal
+4:59:10 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/DocsPreview.jsx:34:39: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/DocsPreview.jsx:34:39
+  
+  Unterminated string literal
+  32 |              <code>
+  33 |                $ curl -fsSL https://get.helix.sh | sh{"\n"}
+  34 |                $ hx new app my-service{"
+     |                                         ^
+  35 |  "}
+  36 |                $ hx run --release
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+4:59:11 AM [vite] ✨ new dependencies optimized: lucide-react, @splinetool/react-spline
+4:59:11 AM [vite] ✨ optimized dependencies changed. reloading
+4:59:11 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/DocsPreview.jsx:34:39: ERROR: Unterminated string literal
+4:59:12 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/DocsPreview.jsx:34:39: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/DocsPreview.jsx:34:39
+  
+  Unterminated string literal
+  32 |              <code>
+  33 |                $ curl -fsSL https://get.helix.sh | sh{"\n"}
+  34 |                $ hx new app my-service{"
+     |                                         ^
+  35 |  "}
+  36 |                $ hx run --release
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+4:59:31 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/DocsPreview.jsx:34:39: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/DocsPreview.jsx:34:39
+  
+  Unterminated string literal
+  32 |              <code>
+  33 |                $ curl -fsSL https://get.helix.sh | sh{"\n"}
+  34 |                $ hx new app my-service{"
+     |                                         ^
+  35 |  "}
+  36 |                $ hx run --release
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)

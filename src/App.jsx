@@ -25,12 +25,9 @@ function DocsFoundation() {
             This is the foundation for the docs site. Expand the sidebar, add pages, and link to deeper content as the language evolves. Keep examples runnable and minimal.
           </p>
           <h2>Quick start</h2>
-          <pre className="not-prose rounded-lg bg-neutral-950 text-neutral-100 p-4 text-sm overflow-x-auto"><code>
-            $ hx new app hello-helix{"\n"}
-            $ cd hello-helix{"
-"}
-            $ hx run
-          </code></pre>
+          <pre className="not-prose rounded-lg bg-neutral-950 text-neutral-100 p-4 text-sm overflow-x-auto"><code>{`$ hx new app hello-helix
+$ cd hello-helix
+$ hx run`}</code></pre>
           <h2>Design principles</h2>
           <ul>
             <li>Memory safety without garbage collection.</li>
