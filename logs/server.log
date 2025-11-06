@@ -1,0 +1,11 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 316 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.23.250:3000/
+4:57:52 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:30:30: ERROR: Unterminated string literal
